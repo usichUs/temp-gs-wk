@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #ff8800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    background: #ff8800;
+    color: #333;
+    padding: 7px 12px;
+    border-radius: 5px;
+    transition: .2s ease-in;
+}
+
+nav a:hover {
+    background: #fff;
+}
+
+button {
+    background-color: #ff8800;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+button:hover {
+    background: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    color: #333;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    box-shadow: 0 0 5px #ffa500; /* Оранжевая подсветка */
+    border: 1px solid #ffa500; /* Оранжевый бордюр */
+}
